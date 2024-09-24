@@ -13,6 +13,9 @@ main{
     margin:50px;
     gap: 50px;
 }
+.peragrph,.Expoler{
+    color: white;
+}
 .img-titel{
     font-weight:700;
 }
@@ -50,9 +53,12 @@ ul li a{
     padding: 50px;
 }
 .button-infomation{
+    display: flex;
     background-color: rgba(240, 248, 255, 0.379);
     padding: 10px;
     border-radius: 10px;
+    gap: 5px;
+    justify-content: center;
     
 }
 #find{
@@ -81,6 +87,7 @@ button{
     padding: 10px;
     
 }
+/*smoll divice and Mobile divaice*/
 @media screen and (max-width:576px) {
     .navber{
         flex-direction: column;
@@ -103,5 +110,14 @@ button{
     padding: 2px;
     
 }
+.button-infomation{
+    flex-direction: column;
+    gap: 5px;
+}
+}
+/*midiyam divaice and tablet divaice*/
+@media screen and (min-width:577px) and (max-width:1200px) {
+    
+    
 }
   
