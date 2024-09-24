@@ -1,0 +1,107 @@
+*{
+    max-width: 1300px;
+   
+}
+main{
+   margin: 50px 10px;
+}
+
+/*heder style*/
+
+.navber{
+    display: flex;
+    margin:50px;
+    gap: 50px;
+}
+.img-titel{
+    font-weight:700;
+}
+.menu-ber ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.img-logo{
+    height: 100px;
+    width: 100px;
+    color: orange;
+}
+/*bannar container style*/
+.bannar-container{
+    background-image: url(./pngtree-a-bridge-over-river-with-trees-on-the-right-side-image_15934194.jpg);
+    border-radius: 10px;
+   
+     
+}
+.bannar-container{
+    text-align: center;
+    width: 800px;
+    position: relative;
+    right: -170px;
+    padding: 50px;
+}
+.button-infomation{
+    background-color: rgba(240, 248, 255, 0.379);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#find{
+    background-color: orange;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.popular-tours{
+    display: flex;
+}
+.populer-img{
+    height: 300px;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.popular-discriptio{
+    width:200px;
+}
+.popular-discription{
+    width: 60%;
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+@media screen and (max-width:576px) {
+    .navber{
+        flex-direction: column;
+    }
+    .bannar-container{    
+        position: relative;
+        left: -15px;
+        width: 220px;
+    
+}
+.menu-ber ul{
+    display:block;
+}
+.popular-tours{
+    flex-direction: column;
+}
+.popular-discription{
+    width:100%;
+    margin-left: 5px;
+    padding: 2px;
+    
+}
+}
+  
