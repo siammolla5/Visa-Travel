@@ -224,6 +224,17 @@ button{
     border-radius: 10px;
     height: 200px;
 }
+/*footer section style*/
+.footer-section{
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+}
+.icon-img{
+    height: 30px;
+    width: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.39);
+}
 /*smoll divice and Mobile divaice*/
 @media screen and (max-width:576px) {
     .navber,.hotle-inform{
@@ -286,7 +297,6 @@ button{
     width: 290px;
     margin-left: 16px;
 }
-
 }
 /*midiyam divaice and tablet divaice*/
 @media screen and (min-width:577px) and (max-width:1200px) {
