@@ -1,6 +1,7 @@
 *{
     max-width: 1300px;
    
+   
 }
 main{
    margin: 50px 10px;
@@ -49,6 +50,12 @@ ul li a{
     border-radius: 10px;
    
      
+}
+.suscribein{
+    color: white;
+    background-color: orange;
+    width: 95%;
+    border-radius: 5px;
 }
 .bannar-container{
     text-align: center;
@@ -145,9 +152,81 @@ button{
     width:500px;
     border-radius: 10px;
 }
+
+
+/*Wy Choose Us Style*/
+.why-choose-us-container{
+    text-align: center;
+    
+}
+.hotle-inform{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.Hondpicked-Hotel{
+    background-color:wheat;
+    width: 30%;
+    padding:10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.World-Class-Service{
+    background-color:cyan;
+    width: 30%;
+    padding:10px;
+    border-radius: 10px;
+    text-align: start;
+}
+.hotle-informin{
+    position: relative;
+    right: -425px;
+}
+.hotle-inform-scend{
+    background-color:wheat;
+    width: 30%;
+    padding:10px;
+    border-radius: 10px;
+    text-align: start;
+    margin-top: 10px;
+}
+
+
+/*news section style*/
+.News-later-section{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+    gap: 10px;
+}
+.login-bar{
+    width: 30%;
+    margin-left: 30px;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.later{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.439);
+}
+ input{
+    background-color: wheat;
+    border: none;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+ }
+.suscribe{
+    width: 95%;
+    border-radius: 5px;
+ }
+.login-img{
+    border-radius: 10px;
+    height: 200px;
+}
 /*smoll divice and Mobile divaice*/
 @media screen and (max-width:576px) {
-    .navber{
+    .navber,.hotle-inform{
         flex-direction: column;
     }
     .bannar-container{    
@@ -156,7 +235,7 @@ button{
         width: 220px;
     
 }
-.menu-ber ul{
+.menu-ber .menu-list{
     display:block;
 }
 .popular-tours{
@@ -184,6 +263,30 @@ button{
 .all-img-one,.all-img-tow,.all-img-six,.all-img-saven{
     width:297px;
 }
+.Hondpicked-Hotel,.World-Class-Service{
+    width: 280px;
+
+}
+.hotle-informin{
+    position:relative;
+    right: -1px;  
+}
+.hotle-inform-scend{
+    width: 280px; 
+}
+.News-later-section{
+    flex-direction: column;
+    margin-left: -25px;
+   
+}
+.login-bar{
+    width: 270px; 
+}
+.login-img{
+    width: 290px;
+    margin-left: 16px;
+}
+
 }
 /*midiyam divaice and tablet divaice*/
 @media screen and (min-width:577px) and (max-width:1200px) {
